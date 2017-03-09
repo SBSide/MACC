@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.iveci.macc.Main4Activity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="섭씨 온도를 입력하세요." />
+
+    <EditText
+        android:id="@+id/tcelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="온도를 입력하세요." />
+
+    <Button
+        android:id="@+id/bfah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="화씨계산" />
+
+    <TextView
+        android:id="@+id/TEXTVIEWMAN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="화씨 온도를 입력하세요." />
+
+    <EditText
+        android:id="@+id/tfahren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="온도를 입력하세요." />
+
+    <Button
+        android:id="@+id/bcel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="섭씨계산" />
+</LinearLayout>
