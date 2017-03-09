@@ -20,7 +20,7 @@
         android:id="@+id/b1"
         android:layout_width="match_parent"
         android:layout_height="33dp"
-        android:text="두번째 activity 호출"
+        android:text="사과계산"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="394dp" />
 
@@ -28,7 +28,7 @@
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="나이계산" />
 
     <Button
         android:id="@+id/button5"
