@@ -13,6 +13,7 @@ public class Main3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.setTitle("나이 계산기");
         setContentView(R.layout.activity_main3);
         init();
         b1.setOnClickListener(new View.OnClickListener() {

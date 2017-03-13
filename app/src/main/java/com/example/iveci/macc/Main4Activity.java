@@ -13,6 +13,7 @@ public class Main4Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.setTitle("온도변환기");
         setContentView(R.layout.activity_main4);
         init();
         b1.setOnClickListener(new View.OnClickListener() {

@@ -13,6 +13,7 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.setTitle("사과값 계산기");
         setContentView(R.layout.activity_main2);
         init();
         b2.setOnClickListener(new View.OnClickListener() {
@@ -21,7 +22,7 @@ public class Main2Activity extends AppCompatActivity {
                 String t1 = e1.getText().toString();
                 String t2 = e2.getText().toString();
                 int r1 = Integer.parseInt(t1) * Integer.parseInt(t2);
-                Toast.makeText(getApplicationContext(),"ANSWER IS" + r1,Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"총" + r1 + "원 입니다.",Toast.LENGTH_SHORT).show();
             }
         });
     }

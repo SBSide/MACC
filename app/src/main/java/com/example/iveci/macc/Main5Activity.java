@@ -16,6 +16,7 @@ public class Main5Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.setTitle("레스토랑 메뉴 주문");
         setContentView(R.layout.activity_main5);
         init();
         b1.setOnClickListener(new View.OnClickListener() {
