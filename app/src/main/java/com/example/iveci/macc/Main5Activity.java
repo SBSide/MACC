@@ -22,9 +22,10 @@ public class Main5Activity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String p1 = t1.getText().toString() != null ? t1.getText().toString() : "0";
-                String p2 = t2.getText().toString() != null ? t2.getText().toString() : "0";
-                String p3 = t3.getText().toString() != null ? t3.getText().toString() : "0";
+                String p1 = !t1.getText().toString().equals("") ? t1.getText().toString() : "0";
+                String p2 = !t2.getText().toString().equals("")  ? t2.getText().toString() : "0";
+                String p3 = !t3.getText().toString().equals("")  ? t3.getText().toString() : "0";
+
                 int tcount = Integer.parseInt(p1) + Integer.parseInt(p2) + Integer.parseInt(p3);
                 int total = Integer.parseInt(p1)*15000 + Integer.parseInt(p2)*13000 + Integer.parseInt(p3)*9000;
 
