@@ -20,7 +20,7 @@ public class Main4Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String cels = t1.getText().toString();
-                double calc = Integer.parseInt(cels) * 1.8 + 32;
+                double calc = Double.parseDouble(cels) * 1.8 + 32;
                 Toast.makeText(getApplicationContext(),
                         "화씨 온도는 "+ calc + "도 입니다.",
                         Toast.LENGTH_SHORT).show();
@@ -30,7 +30,7 @@ public class Main4Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String fahr = t2.getText().toString();
-                double calc = (Integer.parseInt(fahr) - 32 ) / 1.8;
+                double calc = (Double.parseDouble(fahr) - 32 ) / 1.8;
                 Toast.makeText(getApplicationContext(),
                         "섭씨 온도는 "+ calc + "도 입니다.",
                         Toast.LENGTH_SHORT).show();
