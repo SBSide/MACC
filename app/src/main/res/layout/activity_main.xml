@@ -20,7 +20,7 @@
         android:id="@+id/b1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="사과계산"
+        android:text="사과값 계산"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="394dp" />
 
