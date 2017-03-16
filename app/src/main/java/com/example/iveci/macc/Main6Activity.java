@@ -81,13 +81,8 @@ public class Main6Activity extends AppCompatActivity {
     }
 
     boolean noempty(){
-        if(t1.getText().toString().equals("")) {
+        if(t1.getText().toString().equals("") || t2.getText().toString().equals("")) {
             t1.requestFocus();
-            Toast.makeText(getApplicationContext(),"값을 입력하세요.",Toast.LENGTH_SHORT).show();
-            return true;
-        }
-        else if(t2.getText().toString().equals("")) {
-            t2.requestFocus();
             Toast.makeText(getApplicationContext(),"값을 입력하세요.",Toast.LENGTH_SHORT).show();
             return true;
         }
