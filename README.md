@@ -10,3 +10,5 @@ Restaurant order app (Main5Activity)
 Calculator (Main6Activity)
 
 Sorry for my poor english
+
+Hangul ipryok andamnit
